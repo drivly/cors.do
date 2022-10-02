@@ -1,4 +1,4 @@
-import { json } from 'https://pkg.do/itty-router-extras'
+import { json } from 'https://pkg.do/apis.do'
 
 export default {
   fetch: ({url}) => json({url})
